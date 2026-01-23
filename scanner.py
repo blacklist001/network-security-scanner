@@ -1,9 +1,13 @@
 import nmap
+from datetime import datetime
+
 
 scanner = nmap.PortScanner()
 
 target = input("Enter target IP: ")
-print("Scanning target...")
+print(text)
+file.write(text + "\n")
+
 
 scanner.scan(target, '1-1024', arguments='-sV')
 
@@ -17,12 +21,21 @@ risky_ports = {
 }
 
 for host in scanner.all_hosts():
-    print(f"\nHost: {host}")
+   print(text)
+file.write(text + "\n")
+
 
     for proto in scanner[host].all_protocols():
         for port in scanner[host][proto]:
             state = scanner[host][proto][port]['state']
-            print(f"Port {port}: {state}")
+           print(text)
+file.write(text + "\n")
+
 
             if port in risky_ports and state == "open":
-                print(f" ⚠ Risk: {risky_ports[port]}")
+                print(text)
+file.write(text + "\n")
+file.close()
+print(f"\nReport saved as {log_file}")
+
+
