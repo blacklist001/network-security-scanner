@@ -1,0 +1,5 @@
+Host: 127.0.0.1
+Port 80: open
+ Risk: HTTP - Unencrypted traffic
+Port 445: open
+ Risk: SMB - Common attack target
