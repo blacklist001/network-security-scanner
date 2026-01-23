@@ -5,7 +5,8 @@ scanner = nmap.PortScanner()
 target = input("Enter target IP: ")
 print("Scanning target...")
 
-scanner.scan(target, '1-1024')
+scanner.scan(target, '1-1024', arguments='-sV')
+
 
 risky_ports = {
     21: "FTP - Often insecure",
