@@ -24,3 +24,8 @@ GitHub is used for code hosting and documentation.
 - Basic networking concepts
 - Port scanning fundamentals
 - Security risk identification
+  
+ ## Project Purpose
+This project simulates how security analysts identify
+exposed services on a system and assess potential risks.
+
