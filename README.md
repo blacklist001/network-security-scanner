@@ -8,6 +8,8 @@ works and how open services can introduce security risks.
 - Scans ports 1–1024
 - Detects open ports
 - Flags common insecure services
+- Service version detection
+
 
 ## Technologies
 - Python
