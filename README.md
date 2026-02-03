@@ -1,7 +1,7 @@
 # Network Security Scanner
 
 ## Description
-A beginner cybersecurity project that demonstrates how port scanning
+A cybersecurity project that demonstrates how port scanning
 works and how open services can introduce security risks.
 
 ## Features
